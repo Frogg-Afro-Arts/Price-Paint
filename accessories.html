@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Price Paint</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--enable mobile device-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--fontawesome css-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--bootstrap css-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--animate css-->
+      <link rel="stylesheet" href="css/animate-wow.css">
+      <!--main css-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+      <!--responsive css-->
+      <link rel="stylesheet" href="css/responsive.css">
+   </head>
+   <body>
+      <header id="header" class="top-head">
+         <!-- Static navbar -->
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12 left-rs">
+                     <div class="navbar-header">
+                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        </button>
+                        <a href="index.html" class="navbar-brand"><img src="images/price.png" alt="" /></a>
+                     </div>
+                     <form class="navbar-form navbar-left web-sh">
+                        <div class="form">
+                           <input type="text" class="form-control" placeholder="Search for products or companies">
+                        </div>
+                     </form>
+                  </div>
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="talent.html">Talent Competition</a></li>
+                                 <li><a class="custom-b" href="https://www.facebook.com/profile.php?id=100077179757544&mibextid=ZbWKwL
+">Follow us!</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="help-r hidden-xs">
+                           <div class="help-box">
+                              <ul>
+                                 <li> <a href="factory-direct.html"><img class="h-i" src="images/bucket.png" alt="" /> Paint Factory Direct </a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="nav-b hidden-xs">
+                           <div class="nav-box">
+                              <ul>
+                                 <li><a href="index.html">Home</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--/.container-fluid --> 
+         </nav>
+      </header>
+      <!-- Modal -->
+      <div class="modal fade lug" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"></h4>
+               </div>
+               <div class="modal-body">
+                  <ul>
+                     <li><a href="#"><img src="images/flag-up-1.png" alt="" /> United States</a></li>
+                     <li><a href="#"><img src="images/flag-up-2.png" alt="" /> France </a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="sidebar" class="top-nav">
+         <ul id="sidebar-nav" class="sidebar-nav">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamb for Business</a></li>
+         </ul>
+      </div>
+      <div class="profile-box banner-p">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="profile-b">
+                     <img src="images/marshal main.png" alt="#" />
+                     <div class="dit-p">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                           <div class="profile-left-b">
+                              <ul>
+                                 <li><a href="#">Brushes </a></li>
+                                 <li><a href="#">Rollers</a></li>
+                                 <li><a href="#">Trays</a></li>
+                                 <li><a href="#">Scrapers</a></li>
+                              </ul>
+                           </div>
+                           <div class="profile-right-b">
+                              <a class="fo-btn" href="https://www.facebook.com/profile.php?id=100077179757544&mibextid=ZbWKwL
+">Follow us</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="product-profile-box">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-2 col-sm-4 pr">
+                  <div class="profile-pro-left">
+                     <div class="left-profile-box-m">
+                        <div class="pro-img">
+                           <img src="images/approved.png" alt="#" />
+                        </div>
+                        <div class="pof-text">
+                           <h3>Eco Friendly</h3>
+                           <div class="check-box"></div>
+                        </div>
+                        <a href="plastic-rubber.html">Rubber Paints</a>
+                        <p><img src="images/quality.png" alt="" />Quality guaranteed</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-10 col-sm-8">
+                  <div class="profile-pro-right">
+                     <div class="panel with-nav-tabs panel-default">
+                        <div class="panel-heading clearfix">
+                           <ul class="nav nav-tabs pull-left">
+                              <li class="active"><a href="#tab1default" data-toggle="tab">Products <span>48</span></a></li>
+                              <li><a href="#tab2default" data-toggle="tab"> Brushware</a></li>
+                              
+                           </ul>
+                           <ul class="nav nav-tabs pull-right right-t">
+                              <li class="dropdown">
+                                 <a href="#" data-toggle="dropdown">Search <span class="caret"></span></a>
+                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="wall-rubber.html" data-toggle="tab">Wall Rubber Paints</a></li>
+									<li><a href="plastic-rubber.html" data-toggle="tab">Roof Rubber Paints</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="#tab5default" data-toggle="tab"><i class="fa fa-sliders" aria-hidden="true"></i> View less</a></li>
+                           </ul>
+                        </div>
+                        <div class="panel-body">
+                           <div class="tab-content">
+                              <div class="tab-pane fade in active" id="tab1default">
+                                 <div class="product-box-main row">
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/ulticoat100.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Ulti-Coat </h4>
+                                                <p>100mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R74.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/ulticoat75.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Ulti-Coat </h4>
+                                                <p>75mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R59.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/ulticoat38.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Ulti-Coat </h4>
+                                                <p>38mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R34.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/procoat100.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Pro-Coat </h4>
+                                                <p>100mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R74.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/procoat75.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Pro-Coat </h4>
+                                                <p>75mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R59.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/procoat38.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Pro-Coat </h4>
+                                                <p>38mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R34.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/tradesman75.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Tradesman </h4>
+                                                <p>100mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R34.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/tradesman75.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Tradesman </h4>
+                                                <p>75mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R29.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/tradesman50.png" alt="#" />
+                                          </div>
+                                         <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Tradesman </h4>
+                                                <p>50mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R24.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/tradesman38.png" alt="#" />
+                                          </div>
+                                         <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Tradesman </h4>
+                                                <p>38mm <span>Brush</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R19.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/microfibre.png" alt="#" />
+                                          </div>
+                                         <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Microfibre Roller </h4>
+                                                <p>225mm <span>Roller</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R49.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                       <div class="small-box-c">
+                                          <div class="small-img-b">
+                                             <img src="images/tradesmanroller.png" alt="#" />
+                                          </div>
+                                          <div class="dit-t clearfix">
+                                             <div class="left-ti">
+                                                <h4>Tradesman Roller </h4>
+                                                <p>225mm <span>Roller</span></p>
+                                             </div>
+                                             <a href="#" tabindex="0">R49.99</a>
+                                          </div>
+                                          <div class="prod-btn">
+                                             <a href="https://wa.me/27660448539"><i class="fa fa-star" aria-hidden="true"></i> WhatsApp Order</a>
+                                             <a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Full set available</a>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 <div class="loding-box">
+                                    <a href="#">
+                                       <div class="sk-wave">
+                                          <div class="sk-rect sk-rect1"></div>
+                                          <div class="sk-rect sk-rect2"></div>
+                                          <div class="sk-rect sk-rect3"></div>
+                                          <div class="sk-rect sk-rect4"></div>
+                                          <div class="sk-rect sk-rect5"></div>
+                                       </div>
+                                       <span>Loading more awesome products...</span>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="tab2default">
+                                 <div class="about-box">
+                                    <h2>Buy your Marshal brushes at Price Paint</h2>
+                                    <p>Marshal Tools takes immense pride in its commitment to cultivating robust and enduring partnerships with its valued customers</p>
+                                    <p>The brand haS earned international recognition, boasting over a century of scientifically backed expertise.</p>
+                                    <p>The dedicated team consistently goes above and beyond to not only procure and deliver top-notch products but also to serve as 
+a trusted supplier that adds significant value to the customers’ businesses through an extensive range of high-quality offerings and value-added services.</p>
+                                    <p>This approach fosters the creation of a sustainable ecosystem wherein the supplier and the customer 
+not only harmoniously coexist but also mutually thrive, achieving remarkable growth together</p>
+                                 </div>
+                              </div>
+                              <div class="tab-pane fade" id="tab3default">Brushes</div>
+                              <div class="tab-pane fade" id="tab4default">Rollers</div>
+                              <div class="tab-pane fade" id="tab5default">Scrapers</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="main-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="footer-top clearfix">
+                     <div class="col-md-2 col-sm-6">
+                        <h2>Contact us
+                           Today!
+                        </h2>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="form-box">
+                           <input type="text" placeholder="Enter your e-mail" />
+                           <button>Continue</button>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                        <div class="help-box-f">
+                           <h4>Question? Call us on 011 362 1097 / 011 362 0173 for help</h4>
+                           <p>Place your order - Paint ready for pick-up - Delivery nationwide</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-link-box clearfix">
+                     <div class="col-md-6 col-sm-6">
+                        <div class="left-f-box">
+                           <div class="col-sm-4">
+                              <h2>STOCKISTS</h2>
+                              <ul>
+                                 <li><a href="#">Contact us</a></li>
+                                 <li><a href="howitworks.html">How to be a stockist</a></li>
+                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href="#">FAQ for Stockists</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>CUSTOMERS</h2>
+                              <ul>
+                                 <li><a href="#">Contact us</a></li>
+                                 <li><a href="#">Customers</a></li>
+                                 <li><a href="#">Categories</a></li>
+                                 <li><a href="#">FAQ for Customers</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>COMPANY</h2>
+                              <ul>
+                                 <li><a href="about-us.html">Price Paint Factory</a></li>
+                                 <li><a href="#">50 South main reef road</a></li>
+                                 <li><a href="#">clientservice@pricepaint.co.za</a></li>
+                                 <li><a href="#">sales@pricepaint.co.za</a></li>
+                                 <li><a href="#"> 066 044 8539</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="right-f-box">
+                           <h2></h2>
+                           <ul class="col-sm-4">
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                           </ul>
+						   <h2>PRODUCTS</h2>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Roof Rubber Paint</a></li>
+                              <li><a href="#">Wall Rubber Paint</a></li>
+                              <li><a href="#">Gamazine Paint</a></li>
+                              <li><a href="#">Wood Paint</a></li>
+                              <li><a href="#">Roadmarking Paint</a></li>
+                           </ul>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Floor Rubber Paint</a></li>
+                              <li><a href="#">Waterbased Enamel</a></li>
+                              <li><a href="#">Wood Paint</a></li>
+                              <li><a href="#">QD Enamel</a></li>
+                           </ul>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <p><img width="90" src="images/price.png" alt="#" style="margin-top: -5px;" /> All Rights Reserved. Price Paint © 2024</p>
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="list-inline socials">
+                        
+                     </ul>
+                     <ul class="right-flag">
+                        <li><a href="#"><img src="images/frogg.png" alt="" /> <span>Designed by Frogg Afro Arts</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--main js--> 
+      <script src="js/jquery-1.12.4.min.js"></script> 
+      <!--bootstrap js--> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/slick.min.js"></script> 
+      <script src="js/jquery-ui.js"></script> 
+      <script src="js/wow.min.js"></script> 
+      <!--custom js--> 
+      <script src="js/custom.js"></script>
+   </body>
+</html>

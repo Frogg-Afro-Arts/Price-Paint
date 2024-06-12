@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Price Paint</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!--enable mobile device-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--fontawesome css-->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!--bootstrap css-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--animate css-->
+      <link rel="stylesheet" href="css/animate-wow.css">
+      <!--main css-->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/bootstrap-select.min.css">
+      <link rel="stylesheet" href="css/slick.min.css">
+      <link rel="stylesheet" href="css/pricing.css">
+      <!--responsive css-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+   </head>
+   <body>
+      <header id="header" class="top-head">
+         <!-- Static navbar -->
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-4 col-sm-12 left-rs">
+                     <div class="navbar-header">
+                        <button type="button" id="top-menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        </button>
+                        <a href="index.html" class="navbar-brand"><img src="images/price.png" alt="" /></a>
+                     </div>
+                     <form class="navbar-form navbar-left web-sh">
+                        <div class="form">
+                           <input type="text" class="form-control" placeholder="Search for our products ">
+                        </div>
+                     </form>
+                  </div>
+                  <div class="col-md-8 col-sm-12">
+                     <div class="right-nav">
+                        <div class="login-sr">
+                           <div class="login-signup">
+                              <ul>
+                                 <li><a href="talent.html">Talent Competition</a></li>
+                                 <li><a class="custom-b" href="https://wa.me/27660448539">WhatsApp Order</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="help-r hidden-xs">
+                           <div class="help-box">
+                              <ul>
+                                 <li> <a href="factory-direct.html"><img class="h-i" src="images/bucket.png" alt="" /> Paint Factory Direct </a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="nav-b hidden-xs">
+                           <div class="nav-box">
+                              <ul>
+                                 <li><a href="index.html">Home</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--/.container-fluid --> 
+         </nav>
+      </header>
+      <!-- Modal -->
+      <div class="modal fade lug" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Change</h4>
+               </div>
+               <div class="modal-body">
+                  <ul>
+                     
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="sidebar" class="top-nav">
+         <ul id="sidebar-nav" class="sidebar-nav">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Paint Factory Direct</a></li>
+            <li><a href="#">Talent Competition</a></li>
+         </ul>
+      </div>
+      <div class="page-template-pricing">
+         <div class="section-pricing">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 text-center">
+                     <h2>Plastic Roof Rubber</h2>
+                     <p class="lead">Select your Paint acoording to colour range
+                     </p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="pricing-container wow fadeIn" data-wow-delay="0.2s">
+                     <div class="pricing-switcher">
+                        <p class="fieldset">
+                           <input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+                           <label for="monthly-1">Rubber</label>
+                           <input type="radio" name="duration-1" value="yearly" id="yearly-1">
+                           <label for="yearly-1">Matt</label>
+                           <span class="switch"></span>
+                        </p>
+                     </div>
+                     <ul class="pricing-list bounce-invert">
+                        <li>
+                           <ul class="pricing-wrapper">
+                              <li data-type="monthly" class="is-visible">
+                                 <header class="pricing-header">
+                                    <h2>Standard Colour</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                       
+                                    </ul>
+                                    <div class="plan_price">R899.99</div>
+                                    <a class="select" href="#">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                              <li data-type="yearly" class="is-hidden">
+                                 <header class="pricing-header">
+                                    <h2>Standard colour</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                     
+                                    </ul>
+                                    <div class="plan_price">R899.99</div>
+                                    <a class="select" href="#">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <ul class="pricing-wrapper">
+                              <li data-type="monthly" class="is-visible">
+                                 <header class="pricing-header">
+                                    <h2>Special mix</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                      
+                                    </ul>
+                                    <div class="plan_price">R999.99 <span class="small"> per. 20L</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                              <li data-type="yearly" class="is-hidden">
+                                 <header class="pricing-header">
+                                    <h2>Special mix</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                       
+                                    </ul>
+                                    <div class="plan_price">R999.99 <span class="small">per. 20L</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="exclusive">
+                           <ul class="pricing-wrapper">
+                              <li data-type="monthly" class="is-visible">
+                                 <div class="popular">PRICES</div>
+                                 <header class="pricing-header">
+                                    <h2>Bright colour</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                      
+                                    </ul>
+                                    <div class="plan_price">R1250.00 <span class="small">per. 20L.</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                              <li data-type="yearly" class="is-hidden">
+                                 <div class="popular">PRICES</div>
+                                 <header class="pricing-header">
+                                    <h2>Bright colour</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                       
+                                    </ul>
+                                    <div class="plan_price">R1250.00 <span class="small">per. 20L</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <ul class="pricing-wrapper">
+                              <li data-type="monthly" class="is-visible">
+                                 <header class="pricing-header">
+                                    <h2>5 Ltr</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                       
+                                    </ul>
+                                    <div class="plan_price">R399.99 <span class="small">per. 5L</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                              <li data-type="yearly" class="is-hidden">
+                                 <header class="pricing-header">
+                                    <h2>5 Ltr</h2>
+                                    <p>Lay-bye available instore</p>
+                                 </header>
+                                 <div class="pricing-body">
+                                    <ul class="pricing-features">
+                                       
+                                    </ul>
+                                    <div class="plan_price">R399.99 <span class="small">per. 5L</span></div>
+                                    <a class="select" href="https://wa.me/27660448539">WhatsApp Order</a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row pricing-f">
+                  <div class="col-md-12">
+                     <h2>Our Service in Detail</h2>
+                  </div>
+               </div>
+               <div class="row pricing-f-b">
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_1.png" alt="">
+                        </div>
+                        <h3>Customer satisfaction</h3>
+                        <p class="feature_text">Our customers are at the heart of our business: 
+                           Our main objective is the happiness of our customers that's why we put them
+                           first in all we do.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_2.png" alt="">
+                        </div>
+                        <h3>Products </h3>
+                        <p class="feature_text">Our paint and all other painting accessories are of a global standard: 
+                           All South African hardwares and constructors recommend Price Paint 
+                           products.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_3.png" alt="">
+                        </div>
+                        <h3>Examination</h3>
+                        <p class="feature_text">Our paint went through thorough examination before it's been dispensed to our customers.We have been certified with several South African  
+                           quality check boards. We guarantee you Quality with all confidence 
+                           because our paint does it. 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_4.png" alt="">
+                        </div>
+                        <h3>German Technology</h3>
+                        <p class="feature_text">Our rubber technology is none like most local rubber paints: 
+                           This technology has been tried in the USA, Canada, Australia and 
+                           all over Europe.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_5.png" alt="">
+                        </div>
+                        <h3>Talent Shows</h3>
+                        <p class="feature_text">This is a chance given to youngstars in schools to showcase their talents: 
+                           Price Paints hosts this talent show every year and the winner wins a Prize 
+                           and a chance to be known over the internet.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_6.png" alt="">
+                        </div>
+                        <h3>Verified by Standards board</h3>
+                        <p class="feature_text">Price Paint rubber paints have been approved by several standard boards: 
+                           We make ecofriendly paints that are also biodegradable and safe. For more view our 
+                           Safety documents attached together with TDSs.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_7.png" alt="">
+                        </div>
+                        <h3>Diversity</h3>
+                        <p class="feature_text">Our paint works in all types of weather and serves everyone: 
+                           Our colours fit all cultures, we believe we are making South Africa a true rainbow
+                           providing all the colours needed.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_8.png" alt="">
+                        </div>
+                        <h3>Stockists</h3>
+                        <p class="feature_text">Since we are paint manufacturing company stockists are always welcome: 
+                           It doesn't matter how big you are stocking from us, everyone is welcome
+                           to stock for retail or non retail purposes.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                     <div class="feature">
+                        <div class="feature_icon">
+                           <img src="images/pricing_icon_9.png" alt="">
+                        </div>
+                        <h3>Feedback</h3>
+                        <p class="feature_text">We would like to hear from you on how our paint is performing: 
+                           Feel free to tell us all from it's adhesion, flexibility during painting, durability, 
+                           it's response to weather.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="faq-box wow fadeIn" data-wow-delay="0.0s">
+         <div class="container">
+            <div class="row">
+               <div class="faq-main-box">
+                  <h2>Questions and answers</h2>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-1">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq-a" aria-expanded="true" aria-controls="faq-a">
+                                 Why choose Price Paint?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-1">
+                              <div class="panel-body">Our Rubber technology is guaranteed to solve all problems from damp walls, rusted pallisades, molded pave/floors to leaking roofs.</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-2">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq-b" aria-expanded="false" aria-controls="faq-b">
+                                 What's the diffence between Price Paint rubber with others?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-2">
+                              <div class="panel-body">Our Rubber technology is guaranteed to solve all problems from damp walls, rusted pallisades, molded pave/floors to leaking roofs.</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-3">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq-c" aria-expanded="false" aria-controls="faq-c">
+                              Does Price Paint deliver anywhere in South Africa?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-c" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-3">
+                              <div class="panel-body">Yes......T & Cs Apply</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-4">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq-d" aria-expanded="false" aria-controls="faq-d">
+                                 How long does it take to get my order?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-d" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-4">
+                              <div class="panel-body">Maximum 72 hours </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                     <div class="panel-group" id="accordion-a" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-right-1">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion-a" href="#faq-right-a" aria-expanded="true" aria-controls="faq-right-a">
+                                 Can I get any colour that I want?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-right-a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-right-1">
+                              <div class="panel-body">Yes </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-right-2">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion-a" href="#faq-right-b" aria-expanded="false" aria-controls="faq-right-b">
+                                 How do I become a stockist?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-right-b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-right-2">
+                              <div class="panel-body">Feel free to call us  on 011 362 1097 / 011 362 0173 </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-right-3">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion-a" href="#faq-right-c" aria-expanded="false" aria-controls="faq-right-c">
+                                 How does Price Paint lay-bye work?
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-right-c" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-right-3">
+                              <div class="panel-body">Our lay-bye start with ##% upfront and it's a # months payment plan </div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading" role="tab" id="heading-faq-right-4">
+                              <h4 class="panel-title">
+                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion-a" href="#faq-right-d" aria-expanded="false" aria-controls="faq-right-d">
+                                 I have more questions..
+                                 </a>
+                              </h4>
+                           </div>
+                           <div id="faq-right-d" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-faq-right-4">
+                              <div class="panel-body">Send us a Hi on WhatsApp 066 044 8539 and chat to our consultant. </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="main-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="footer-top clearfix">
+                     <div class="col-md-2 col-sm-6">
+                        <h2>Contact us
+                           Today!
+                        </h2>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="form-box">
+                           <input type="text" placeholder="Enter your e-mail" />
+                           <button>Continue</button>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-sm-12">
+                        <div class="help-box-f">
+                           <h4>Question? Call us on 011 362 1097 / 011 362 0173 for help</h4>
+                           <p>Place your order - Paint ready for pick-up - Delivery nationwide</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-link-box clearfix">
+                     <div class="col-md-6 col-sm-6">
+                        <div class="left-f-box">
+                           <div class="col-sm-4">
+                              <h2>STOCKISTS</h2>
+                              <ul>
+                                 <li><a href="#">Contact us</a></li>
+                                 <li><a href="howitworks.html">How to be a stockist</a></li>
+                                 <li><a href="pricing.html">Pricing</a></li>
+                                 <li><a href="#">FAQ for Stockists</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>CUSTOMERS</h2>
+                              <ul>
+                                 <li><a href="#">Contact us</a></li>
+                                 <li><a href="#">Customers</a></li>
+                                 <li><a href="#">Categories</a></li>
+                                 <li><a href="#">FAQ for Customers</a></li>
+                              </ul>
+                           </div>
+                           <div class="col-sm-4">
+                              <h2>COMPANY</h2>
+                              <ul>
+                                 <li><a href="about-us.html">Price Paint Factory</a></li>
+                                 <li><a href="#">50 South main reef road</a></li>
+                                 <li><a href="#">clientservice@pricepaint.co.za</a></li>
+                                 <li><a href="#">sales@pricepaint.co.za</a></li>
+                                 <li><a href="#"> 066 044 8539</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-sm-6">
+                        <div class="right-f-box">
+                           <h2></h2>
+                           <ul class="col-sm-4">
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                              <li><a href="#"></a></li>
+                           </ul>
+						   <h2>PRODUCTS</h2>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Roof Rubber Paint</a></li>
+                              <li><a href="#">Wall Rubber Paint</a></li>
+                              <li><a href="#">Gamazine Paint</a></li>
+                              <li><a href="#">Wood Paint</a></li>
+                              <li><a href="#">Roadmarking Paint</a></li>
+                           </ul>
+                           <ul class="col-sm-4">
+                              <li><a href="#">Floor Rubber Paint</a></li>
+                              <li><a href="#">Waterbased Enamel</a></li>
+                              <li><a href="#">Wood Paint</a></li>
+                              <li><a href="#">QD Enamel</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8">
+                     <p><img width="90" src="images/price.png" alt="#" style="margin-top: -5px;" />All Rights Reserved. Price Paint © 2024</p>
+                  </div>
+                  <div class="col-md-4">
+                     <ul class="list-inline socials">
+                        
+                     </ul>
+                     <ul class="right-flag">
+                        <li><a href="#"><img src="images/mzansi.png" alt="" /> <span>Designed by Frogg Afro Arts</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--main js--> 
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <!--bootstrap js--> 
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/index.js"></script>
+      <script src="js/wow.min.js"></script> 
+      <!--custom js--> 
+      <script src="js/custom.js"></script>
+   </body>
+</html>
